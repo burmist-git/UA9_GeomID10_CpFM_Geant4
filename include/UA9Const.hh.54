@@ -1,0 +1,45 @@
+#ifndef UA9Const_h
+#define UA9Const_h
+
+#include "TMath.h"
+
+namespace UA9Const{
+
+  //Sec
+  const G4double barSizeX = 10.0*cm;
+  const G4double barSizeY =  0.5*cm;
+  const G4double barSizeZ =  0.5*cm;
+
+  //the engle of the 
+  //const G4double thetaEnd = 47.1*deg;
+  const G4double thetaEnd = 54.0*deg;
+  //const G4double thetaEnd = 20.0*deg;
+  //const G4double thetaEnd = 80.0*deg;
+
+  //senDet
+  const G4double senDetX = 5.0*mm;
+  const G4double senDetY = barSizeY;
+  const G4double senDetZ = barSizeZ;
+
+  //absorber in the oposit side to PMT
+  const G4double abs1X = 1.0*mm;
+  const G4double abs1Y = barSizeY;
+  const G4double abs1Z = barSizeZ;
+
+  //const G4double sizeL = 10.0*cm;
+  const G4double sizeL = 0.5*cm;
+  const G4double sizeRTorr = 3.0*cm;
+
+  const G4double size2L = 150*cm;
+  //base-line
+  //const G4double sizeR = 0.4*mm;
+  const G4double sizeR = 0.2*mm;
+  const G4double claddThick = 0.02*mm;
+ 
+  //mirror
+  //const G4double mirrorX = senDetX;
+  //const G4double mirrorY = senDetY;
+  //const G4double mirrorZ = senDetZ;
+}
+
+#endif
